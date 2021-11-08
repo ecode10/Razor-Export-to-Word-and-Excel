@@ -1,10 +1,8 @@
 # Razor Page Export to Word and Excel
 
-Framework: .NET Core
-
-Linguage: C#
-
-Tool: Visual Studio
+- Framework: .NET Core
+- Linguage: C#
+- Tool: Visual Studio
 
 
 A simple project that you can export to excel and word without using nuget package or pay. All for free
