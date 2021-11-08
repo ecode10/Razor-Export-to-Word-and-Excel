@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Boa2FSuU/+YCo8WGdV2WyJ8+8RB8QSkWlzsb+qWe1FUBQGDsGnACnGWtsPlDJfOrT7dk7/UOuJL9nwmTOlxnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mborges\\source\\repos\\ConvertToExcel\\ConvertToExcel\\ConvertToExcel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mborges\\.nuget\\packages\\htmltextwriter\\2.1.0\\htmltextwriter.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

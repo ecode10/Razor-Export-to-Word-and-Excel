@@ -1,0 +1,25 @@
+﻿@page
+@model ConvertToExcel.Pages.ExcelModel
+@{
+    ViewData["Title"] = "Home page";
+    Response.Headers.Add("content-disposition", "attachment;filename=A.xls");
+    Response.ContentType = "application/vm.ms-excel";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        <table>
+            <tr>
+                <th>Teste</th>
+                <th>Teste</th>
+                <th>Teste</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+            </tr>
+        </table>
+    </p>
+</div>

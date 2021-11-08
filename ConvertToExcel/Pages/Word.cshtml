@@ -1,0 +1,17 @@
+﻿@page
+@model ConvertToExcel.Pages.WordModel
+@{
+    ViewData["Title"] = "Home page";
+    Response.Headers.Add("content-disposition", "attachment;filename=A.doc");
+    Response.ContentType = "application/msword";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>
+        Learn about 
+        Teste <br />
+        Teste <br />
+        Teste <br />
+    </p>
+</div>
